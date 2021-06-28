@@ -1,0 +1,26 @@
+.slider h3, 
+.slider h5,
+.sosmed h3{
+    /* tulisan bayangan */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.parallax-container {
+    height: 80%;
+}
+
+.parallax img{
+    /* filter hitam putih */
+    filter: grayscale(1);
+    /* maksa css */
+    opacity: 0.5 !important;
+} 
+
+.sosmed img{
+    max-width: 175px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section, footer{
+    padding: 20px 0px;
+}
